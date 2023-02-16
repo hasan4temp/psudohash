@@ -339,6 +339,7 @@ def mutate_years():
 				basic_mutations.append(f'{word}{y}')
 				basic_mutations.append(f'{word}_{y}')
 				basic_mutations.append(f'{word}{y[2:]}')		
+				wordlist.write(f'{word}@{y}\n')
 	
 	del current_mutations
 
